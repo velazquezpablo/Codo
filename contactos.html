@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Diseñador Freelancer</title>
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.0/normalize.css">
+    <link href="https://fonts.googleapis.com/css?family=Krub:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header">
+        <h1>Pablo Velazquez <span>Freelancer</span></h1>
+    </header>
+
+    <div class=" nav-bg">
+        <nav class="navegacion contenedor">
+            <a href="index.html">Inicio</a>
+            <a href="nosotros.html">Nosotros</a>
+            <a href="clientes.html">Clientes</a>
+            <a href="contactos.html">Contacto</a>
+        </nav>
+    </div>
+    
+
+
+<div id="contacto" class="contacto">
+    <h2>Contacto</h2>
+    <form class="formulario" action="#" method="POST">
+        <legend>Contactános llenando todos los campos</legend>
+
+        <div class="contenedor-campos">
+            <div class="campo">
+                <label>Nombre</label>
+
+                <input type="text" name="nombre" placeholder="Nombre" required>
+            </div>
+            <div class="campo">
+                <label>Teléfono</label>
+
+                <input type="tel" name="telefono" placeholder="Teléfono">
+            </div>
+            <div class="campo w-100">
+                <label>Correo</label>
+
+                <input type="mail" name="correo" placeholder="Mail">
+            </div>
+            <div class="campo w-100">
+                <div class="campo">
+                    <label>¿Ya sos cliente?</label>
+                    <br>
+                    <div class="list">
+                        <ul>
+                          <li>
+                            <label class="item-radio item-content">
+                              <input type="radio" name="diaReservaCena" id="diaReservaCena" value="Viernes" />
+                              <i class="icon icon-radio"></i>
+                              <div class="item-inner">
+                                <div class="titulosinput">Si</div>
+                              </div>
+                            </label>
+                          </li>
+                          <li>
+                            <label class="item-radio item-content">
+                              <input type="radio" name="diaReservaCena" id="diaReservaCenas" checked="true" value="Sabado"/>
+                              <i class="icon icon-radio"></i>
+                              <div class="item-inner">
+                                <div class="titulosinput">No</div>
+                              </div>
+                            </label>
+                          </li>
+                          </div>  
+                </div>
+                <br>
+                <label>Mensaje:</label>
+
+                <textarea></textarea>
+            </div>
+        </div><!--.contenedor-campos-->
+        <div class="enviar">
+            <input class="boton" type="submit" value="Enviar">
+        </div>
+    </form>
+</div>
+</div>
+</body>
